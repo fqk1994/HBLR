@@ -67,17 +67,19 @@ Official MATLAB implementation of the paper:
 ### Synthetic DAS VSP — qualitative comparison
 HBLR (g) suppresses the strong coherent interferences while preserving the weak reflections, leaving the cleanest result among the compared methods (SVD, F-X, BP+SOMF+FK, RPCA, U-Net, Diffusion).
 
-![Synthetic denoising comparison](assets/fig8_synthetic_comparison.png)
+![Synthetic denoising comparison](assets/fig10.png)
 
-### Quantitative comparison (SNR / MSE)
-Across three synthetic datasets, HBLR achieves the **lowest MSE** while remaining competitive in SNR improvement — notable given that it is **fully unsupervised** and uses no training data, unlike the supervised U-Net and diffusion baselines.
-
-![SNR and MSE comparison](assets/fig13_snr_mse.png)
-
-### Field DAS VSP (Utah FORGE) — qualitative comparison
+### Field DAS VSP (DAS-VSP 1) — qualitative comparison
 On openly available field data, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events.
 
-![FORGE field denoising comparison](assets/fig18_forge_field.png)
+![Field data 1 denoising comparison](assets/figure17.png)
+![Removed noise sections comparison](assets/figure18.tif)
+
+### Field DAS VSP (DAS-VSP 2 of Utah FORGE dataset) — qualitative comparison
+On openly available field data, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events.
+
+![Field data 2 denoising comparison](assets/figure20.png)
+![Removed noise sections comparison](assets/figure21.tif)
 
 > See the paper for the full set of experiments, F-K spectra, single-trace analysis, convergence study, ablations, and hyper-parameter sensitivity.
 
