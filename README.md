@@ -64,22 +64,27 @@ Official MATLAB implementation of the paper:
 
 ## Results
 
-### Synthetic DAS VSP — qualitative comparison
+### Synthetic DAS VSP 
 HBLR (g) suppresses the strong coherent interferences while preserving the weak reflections, leaving the cleanest result among the compared methods (SVD, F-X, BP+SOMF+FK, RPCA, U-Net, Diffusion).
 
-![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](assets/Figure10.png)
+**Figure 1 — Synthetic data denoising example:**
+*![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](https://github.com/fqk1994/HBLR/blob/main/Figure10.png)*
 
 ### Field DAS VSP (DAS-VSP 1) — qualitative comparison
-On openly available field data, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events.
+For field data 1, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events, and also has minimal signal leakage.
 
-![Field data 1 denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](assets/Figure17.png)
-![Removed noise sections comparison](assets/Figure18.png)
+**Figure 2 — Field data 1 denoising example:**
+*![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](https://github.com/fqk1994/HBLR/blob/main/Figure17.png)*
+**Figure 3 — Removed noise sections comparison:**
+*![Removed noise sections comparison](https://github.com/fqk1994/HBLR/blob/main/Figure18.png)*
 
 ### Field DAS VSP (DAS-VSP 2 of Utah FORGE dataset) — qualitative comparison
 On openly available field data, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events.
 
-![Field data 2 denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](assets/Figure20.png)
-![Removed noise sections comparison](assets/Figure21.tif)
+**Figure 4 — Field data 1 denoising example:**
+*![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](https://github.com/fqk1994/HBLR/blob/main/Figure20.png)*
+**Figure 5 — Removed noise sections comparison:**
+*![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](https://github.com/fqk1994/HBLR/blob/main/Figure21.tif)*
 
 > See the paper for the full set of experiments, F-K spectra, single-trace analysis, convergence study, ablations, and hyper-parameter sensitivity.
 
