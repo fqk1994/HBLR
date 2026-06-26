@@ -3,9 +3,7 @@
 Official MATLAB implementation of the paper:
 
 > **Hierarchical Bayesian Low-Rank Modelling for DAS VSP Denoising with Dynamic Structural Constraint**
-> 
 > Haitao Ma, Yilin Liu, Qiankun Feng\*, Yue Li
-> 
 > *Expert Systems With Applications*, 2026. [https://doi.org/10.1016/j.eswa.2026.133369](https://doi.org/10.1016/j.eswa.2026.133369)
 
 <!-- Optional badges — uncomment once the repo is public
@@ -69,19 +67,19 @@ Official MATLAB implementation of the paper:
 ### Synthetic DAS VSP — qualitative comparison
 HBLR (g) suppresses the strong coherent interferences while preserving the weak reflections, leaving the cleanest result among the compared methods (SVD, F-X, BP+SOMF+FK, RPCA, U-Net, Diffusion).
 
-![Synthetic denoising comparison](assets/Figure10.png)
+![Synthetic denoising comparison](Figure10.png)
 
 ### Field DAS VSP (DAS-VSP 1) — qualitative comparison
 On openly available field data, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events.
 
-![Field data 1 denoising comparison](assets/Figure17.png)
-![Removed noise sections comparison](assets/figure18.tif)
+![Field data 1 denoising comparison](Figure17.png)
+![Removed noise sections comparison](Figure18.png)
 
 ### Field DAS VSP (DAS-VSP 2 of Utah FORGE dataset) — qualitative comparison
 On openly available field data, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events.
 
-![Field data 2 denoising comparison](assets/Figure20.png)
-![Removed noise sections comparison](assets/Figure21.tif)
+![Field data 2 denoising comparison](Figure20.png)
+![Removed noise sections comparison](Figure21.tif)
 
 > See the paper for the full set of experiments, F-K spectra, single-trace analysis, convergence study, ablations, and hyper-parameter sensitivity.
 
