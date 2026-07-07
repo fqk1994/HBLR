@@ -73,18 +73,18 @@ HBLR (g) suppresses the strong coherent interferences while preserving the weak 
 ### Field DAS VSP (DAS-VSP 1) — qualitative comparison
 For field data 1, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events, and also has minimal signal leakage.
 
-**Figure 2 — Field data 1 denoising example:**
+**Figure 2 — Field data 1 denoising example:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR**
 *![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](https://github.com/fqk1994/HBLR/blob/main/Figure17.png)*
-**Figure 3 — Removed noise sections comparison:**
+**Figure 3 — Removed noise sections comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR**
 *![Removed noise sections comparison](https://github.com/fqk1994/HBLR/blob/main/Figure18.png)*
 
 ### Field DAS VSP (DAS-VSP 2 of Utah FORGE dataset) — qualitative comparison
 On openly available field data, HBLR (g) removes coherent noise while faithfully retaining the structural continuity and amplitude of the seismic events.
 
-**Figure 4 — Field data 1 denoising example:**
+**Figure 4 — Field data 1 denoising example:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR**
 *![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](https://github.com/fqk1994/HBLR/blob/main/Figure20.png)*
-**Figure 5 — Removed noise sections comparison:**
-*![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](https://github.com/fqk1994/HBLR/blob/main/Figure21.tif)*
+**Figure 5 — Removed noise sections comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR**
+*![Synthetic denoising comparison:(a)SVD, (b)F-X, (c)BP+SOMF+FK, (d)RPCA, (e)U-Net, (f)Diffusion,(g)HBLR](https://github.com/fqk1994/HBLR/blob/main/Figure21_1.png)*
 
 > See the paper for the full set of experiments, F-K spectra, single-trace analysis, convergence study, ablations, and hyper-parameter sensitivity.
 
